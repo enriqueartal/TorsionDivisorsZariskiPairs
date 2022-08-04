@@ -1,5 +1,5 @@
-FROM sagemath/sagemath:latest
-#FROM sagemathinc/cocalc:latest
+#FROM sagemath/sagemath:latest
+FROM sagemathinc/cocalc:latest
 
 RUN sage -pip install jupyterlab
 
